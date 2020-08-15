@@ -22,11 +22,11 @@ b)  sum = 0
 ```
 
 ```
-c)  def bunnyEars(bunnies):
-      if bunnies == 0:
-        return 0
+c)  def bunnyEars(bunnies):    
+      if bunnies == 0:        //0(1)
+        return 0              //0()
 
-      return 2 + bunnyEars(bunnies-1)
+      return 2 + bunnyEars(bunnies-1) //0(1)
 ```
 
 ## Exercise II
